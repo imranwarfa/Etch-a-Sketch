@@ -21,8 +21,16 @@ for(let i = 0; i < rows; i++){
         //gridItem.textContent = "Grid item row: " + i + " column: " + j;
 
         gridItem.style.backgroundColor = getRandomColor();
+
+        // add an eventListener to each gridItem to watch for when the mouse hovers over the div
+        // change color when this happens
+
+        gridItem.addEventListener('mouseover', event => {
+            gridItem.style.backgroundColor = getRandomColor();
+        });
         
         // Append gridItem
         gridContainer.appendChild(gridItem);
     }
 }
+

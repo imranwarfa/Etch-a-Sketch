@@ -3,7 +3,7 @@
 body {
   display: flex;
   justify-content: center; /* Horizontally center body content*/
-   align-items: center;   /*  Vertically center body content */
+  align-items: center;   /*  Vertically center body content */
   height: 100vh;          /* Set body height to 100% of viewport height */
   margin: 0;              /* remove default margin */
 }
@@ -13,10 +13,13 @@ body {
   flex-wrap: wrap; /* Allow items to wrap to the next line */
   justify-content: center; /* Horizontally center items */
   align-items: center; /* Vertically center items */
-  width: 320px;
-  height: 320px;
+  width: 960px;  /* based on sizing of default divs: 20 x 20 for each div (multiplied by 16 rows and columns to get 320 x 320) */
+  height: 960px;
+  border: 8px solid #333; 
 }
 
 .grid-item {
-  padding: 10px;
+  padding: 0 px; /* provides sizing for the divs */
+  width: 60px;
+  height: 60px;
 }
