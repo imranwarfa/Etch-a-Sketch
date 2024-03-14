@@ -1,1 +1,22 @@
 /* styles.css */
+
+body {
+  display: flex;
+  justify-content: center; /* Horizontally center body content*/
+   align-items: center;   /*  Vertically center body content */
+  height: 100vh;          /* Set body height to 100% of viewport height */
+  margin: 0;              /* remove default margin */
+}
+
+.grid {
+  display: flex; /* Use Flexbox */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Horizontally center items */
+  align-items: center; /* Vertically center items */
+  width: 320px;
+  height: 320px;
+}
+
+.grid-item {
+  padding: 10px;
+}
