@@ -20,6 +20,6 @@ body {
 
 .grid-item {
   padding: 0 px; /* provides sizing for the divs */
-  width: 60px;
-  height: 60px;
+  width: 56px;
+  height: 56px;
 }
