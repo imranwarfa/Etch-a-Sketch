@@ -13,13 +13,12 @@ body {
   flex-wrap: wrap; /* Allow items to wrap to the next line */
   justify-content: center; /* Horizontally center items */
   align-items: center; /* Vertically center items */
-  width: 960px;  /* based on sizing of default divs: 20 x 20 for each div (multiplied by 16 rows and columns to get 320 x 320) */
-  height: 960px;
-  border: 8px solid #333; 
+  width: 1000px;  /* based on sizing of default divs: 20 x 20 for each div (multiplied by 16 rows and columns to get 320 x 320) */
+  height: 1000px;
+  border: 1px solid #333;   
 }
 
-.grid-item {
-  padding: 0 px; /* provides sizing for the divs */
-  width: 56px;
-  height: 56px;
-}
+/* .grid-item {
+  width: 58.75px;
+  height: 58.75px;
+} */
